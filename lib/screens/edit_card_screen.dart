@@ -90,7 +90,7 @@ class _EditCardScreenState extends State<EditCardScreen> {
               ),
               const SizedBox(height: 12),
               DropdownButtonFormField<String>(
-                value: _suit,
+                initialValue: _suit,
                 decoration: const InputDecoration(labelText: 'Suit'),
                 items: const [
                   DropdownMenuItem(value: 'Hearts', child: Text('Hearts')),
